@@ -1,5 +1,5 @@
 pipeline {
-  agent none
+  agent any
 
   parameters {
     string(defaultValue: "specify_token_or_get_it_from_credentials", description: 'Neoload Web Token', name: 'token')
